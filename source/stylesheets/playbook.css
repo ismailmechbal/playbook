@@ -1108,3 +1108,7 @@ support for no js
   width: 90%;
   margin: auto auto 40px auto;
 }
+
+ul.is-hidden {
+  margin-left: 12px;
+}
