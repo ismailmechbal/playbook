@@ -19,3 +19,10 @@ The main goal of this playbook is to share the way we execute things inside Ical
 
 Hope this piece will help anyone out there. 
 
+
+DEVELOPMENT
+Version Control
+Testing
+Pair programming
+Code Review
+Refactor
