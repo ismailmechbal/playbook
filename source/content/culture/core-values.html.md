@@ -4,8 +4,7 @@ Our Core Values:
 Curiosity, Proactivity, Courage, (Persistence, Vitality, Bravery),
 Fun, Self-Motivation, Learnability.
 
-
-2. Every member has integrity 
+2. Every member has integrity
 Respect, Honesty, Justice, Responsibility,
 Discipline, Commitment, Dignity.
 
