@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -34,9 +34,9 @@ img {
   max-width: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .il-main-content, .il-main-header {
@@ -1026,9 +1026,9 @@ Main components
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-support for no js 
+support for no js
 
 -------------------------------- */
 .no-js .il-primary-nav {
@@ -1111,4 +1111,8 @@ support for no js
 
 ul.is-hidden {
   margin-left: 12px;
+}
+
+h1.article-title {
+  font-size: 20px;
 }
