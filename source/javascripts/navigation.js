@@ -7,32 +7,7 @@ jQuery(document).ready(function($){
 		(!window.requestAnimationFrame) ? setTimeout(moveNavigation, 300) : window.requestAnimationFrame(moveNavigation);
 	});
 
-	//mobile - open lateral menu clicking on the menu icon
-	$('.il-nav-trigger').on('click', function(event){
-		event.preventDefault();
-		if( $('.il-main-content').hasClass('nav-is-visible') ) {
-			closeNav();
-			$('.il-overlay').removeClass('is-visible');
-		} else {
-			$(this).addClass('nav-is-visible');
-			$('.il-primary-nav').addClass('nav-is-visible');
-			$('.il-main-header').addClass('nav-is-visible');
-			$('.il-main-content').addClass('nav-is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-				$('body').addClass('overflow-hidden');
-			});
-			toggleSearch('close');
-			$('.il-overlay').addClass('is-visible');
-		}
-	});
-
-	//open search form
-	$('.il-search-trigger').on('click', function(event){
-		event.preventDefault();
-		toggleSearch();
-		closeNav();
-	});
-
-	//close lateral menu on mobile 
+	//close lateral menu on mobile
 	$('.il-overlay').on('swiperight', function(){
 		if($('.il-primary-nav').hasClass('nav-is-visible')) {
 			closeNav();
@@ -47,12 +22,11 @@ jQuery(document).ready(function($){
 	});
 	$('.il-overlay').on('click', function(){
 		closeNav();
-		toggleSearch('close')
 		$('.il-overlay').removeClass('is-visible');
 	});
 
 
-	//prevent default clicking on direct children of .il-primary-nav 
+	//prevent default clicking on direct children of .il-primary-nav
 	$('.il-primary-nav').children('.has-children').children('a').on('click', function(event){
 		event.preventDefault();
 	});
@@ -65,11 +39,18 @@ jQuery(document).ready(function($){
 			selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
 			selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
 			$('.il-overlay').addClass('is-visible');
+			console.log('has children if hi shows menu, selected is', selected)
+
 		} else {
 			selected.removeClass('selected').next('ul').addClass('is-hidden').end().parent('.has-children').parent('ul').removeClass('moves-out');
+			$('.table-of-contents').removeClass('selected')
 			$('.il-overlay').removeClass('is-visible');
+			$('#il-primary-nav').removeClass('moves-out')
+			$('.il-secondary-nav').addClass('is-hidden')
+			console.log('has children else hi this hides the menu, selected is', selected)
+			console.log("selected.parent('.has-children').parent('ul')", selected.parent('.has-children').parent('ul'))
+
 		}
-		toggleSearch('close');
 	});
 
 	//submenu items - go back link
@@ -78,7 +59,6 @@ jQuery(document).ready(function($){
 	});
 
 	function closeNav() {
-		$('.il-nav-trigger').removeClass('nav-is-visible');
 		$('.il-main-header').removeClass('nav-is-visible');
 		$('.il-primary-nav').removeClass('nav-is-visible');
 		$('.has-children ul').addClass('is-hidden');
@@ -89,25 +69,9 @@ jQuery(document).ready(function($){
 		});
 	}
 
-	function toggleSearch(type) {
-		if(type=="close") {
-			//close serach 
-			$('.il-search').removeClass('is-visible');
-			$('.il-search-trigger').removeClass('search-is-visible');
-			$('.il-overlay').removeClass('search-is-visible');
-		} else {
-			//toggle search visibility
-			$('.il-search').toggleClass('is-visible');
-			$('.il-search-trigger').toggleClass('search-is-visible');
-			$('.il-overlay').toggleClass('search-is-visible');
-			if($(window).width() > MqL && $('.il-search').hasClass('is-visible')) $('.il-search').find('input[type="search"]').focus();
-			($('.il-search').hasClass('is-visible')) ? $('.il-overlay').addClass('is-visible') : $('.il-overlay').removeClass('is-visible') ;
-		}
-	}
-
 	function checkWindowWidth() {
 		//check window width (scrollbar included)
-		var e = window, 
+		var e = window,
             a = 'inner';
         if (!('innerWidth' in window )) {
             a = 'client';
@@ -132,4 +96,3 @@ jQuery(document).ready(function($){
 		}
 	}
 });
-
