@@ -30,44 +30,18 @@ jQuery(document).ready(function($){
 	$('.il-primary-nav').children('.has-children').children('a').on('click', function(event){
 		event.preventDefault();
 	});
-	//open submenu
-	$('.has-children').children('a').on('click', function(event){
-		if( !checkWindowWidth() ) event.preventDefault();
-		var selected = $(this);
-		if( selected.next('ul').hasClass('is-hidden') ) {
-			//desktop version only
-			selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
-			selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
-			$('.il-overlay').addClass('is-visible');
-			console.log('has children if hi shows menu, selected is', selected)
 
-		} else {
-			selected.removeClass('selected').next('ul').addClass('is-hidden').end().parent('.has-children').parent('ul').removeClass('moves-out');
-			$('.table-of-contents').removeClass('selected')
-			$('.il-overlay').removeClass('is-visible');
-			$('#il-primary-nav').removeClass('moves-out')
-			$('.il-secondary-nav').addClass('is-hidden')
-			console.log('has children else hi this hides the menu, selected is', selected)
-			console.log("selected.parent('.has-children').parent('ul')", selected.parent('.has-children').parent('ul'))
-
-		}
+	//Toggle nav
+	$('nav a').click(function() {
+		toggleNav();
 	});
 
-	//submenu items - go back link
-	$('.go-back').on('click', function(){
-		$(this).parent('ul').addClass('is-hidden').parent('.has-children').parent('ul').removeClass('moves-out');
-	});
-
-	function closeNav() {
-		$('.il-main-header').removeClass('nav-is-visible');
-		$('.il-primary-nav').removeClass('nav-is-visible');
-		$('.has-children ul').addClass('is-hidden');
-		$('.has-children a').removeClass('selected');
-		$('.moves-out').removeClass('moves-out');
-		$('.il-main-content').removeClass('nav-is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-			$('body').removeClass('overflow-hidden');
-		});
+	function toggleNav() {
+		$('.il-overlay').toggleClass('is-visible');
+		$('#il-primary-nav').toggleClass('moves-out')
+		$('.il-secondary-nav').toggleClass('is-hidden')
 	}
+
 
 	function checkWindowWidth() {
 		//check window width (scrollbar included)
