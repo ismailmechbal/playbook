@@ -1,140 +1,139 @@
 <!doctype html>
 <html lang="en" class="no-js">
-<head>
-<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-<!-- Always force latest IE rendering engine or request Chrome Frame -->
-<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
-<title>Icalia Labs Playbook</title>
-<link rel="icon" href="https://s3.amazonaws.com/icalia/assets/img/favicon.ico">
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,600italic,700' rel='stylesheet' type='text/css'>
+    <title>Icalia Labs Playbook</title>
+    <link rel="icon" href="https://s3.amazonaws.com/icalia/assets/img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,600italic,700' rel='stylesheet' type='text/css'>
 
-<%= stylesheet_link_tag "reset", "animate", "playbook" %>
-</head>
+    <%= stylesheet_link_tag "reset", "animate", "playbook" %>
+  </head>
 
-<body class="nav-is-fixed">
-<div class="logo animated fadeInDown">
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
-    <path d="M0 0v800.02h800V640.01H639.972H479.995V480.001l0 0V160.015h159.977v319.986H800V0H0z M319.979 320.018v0.007v159.977l0 0 V640.01H159.99V480.001l0 0V320.024v-0.007V160.015h159.989V320.018z"></path>
-  </svg>
-</div>
-<header class="navigation-bar il-main-header">
-  <a class="il-logo" href="#0">PLAYBOOK</a>
+  <body class="nav-is-fixed">
+    <div class="logo animated fadeInDown">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+        <path d="M0 0v800.02h800V640.01H639.972H479.995V480.001l0 0V160.015h159.977v319.986H800V0H0z M319.979 320.018v0.007v159.977l0 0 V640.01H159.99V480.001l0 0V320.024v-0.007V160.015h159.989V320.018z"></path>
+      </svg>
+    </div>
+    <header class="navigation-bar il-main-header">
+      <a class="il-logo" href="#">PLAYBOOK</a>
 
-  <ul class="il-header-buttons">
-  </ul> <!-- il-header-buttons -->
-</header>
-<main class="il-main-content">
-<%= yield %>
-</main>
+      <ul class="il-header-buttons">
+      </ul> <!-- il-header-buttons -->
+    </header>
+    <main class="il-main-content">
+      <%= yield %>
+    </main>
 
 
-<div class="il-overlay"></div>
-<nav class="il-nav">
-  <ul id="il-primary-nav" class="il-primary-nav is-fixed pull-right">
-    <li class="has-children">
-    <a href="#" class="table-of-contents">TABLE OF CONTENTS</a>
+    <div class="il-overlay"></div>
+    <nav class="il-nav">
+      <ul id="il-primary-nav" class="il-primary-nav is-fixed pull-right">
+        <li class="has-children">
+          <a href="#" class="table-of-contents">TABLE OF CONTENTS</a>
 
-    <ul class="il-secondary-nav is-hidden">
-      <li class="go-back"><a href="#0">Menu</a></li>
-      <li class="has-children">
-        <a href="#">WELCOME</a>
-        <ul class="is-hidden">
-          <li><a href="#">About us (EB)</a></li>
-        </ul>
-        <a href="#">MANAGEMENT</a>
-        <ul class="is-hidden">
-          <li><a href="#">Management tools (EB)</a></li>
-          <li><a href="#">Grooming the product (EB)</a></li>
-          <li><a href="#">Sales involvement (EL & Vov)</a></li>
-        </ul>
-        <a href="#">OPERATIONS</a>
-        <ul class="is-hidden">
-          <li><a href="#">Frameworks</a></li>
-        </ul>
-      </li>
+          <ul class="il-secondary-nav is-hidden">
+            <li class="has-children">
+              <a href="#welcome">WELCOME</a>
+              <ul class="is-hidden">
+                <li><a href="#about">About us (EB)</a></li>
+              </ul>
+              <a href="#management">MANAGEMENT</a>
+              <ul class="is-hidden">
+                <li><a href="#mgmt-tools">Management tools (EB)</a></li>
+                <li><a href="#grooming">Grooming the product (EB)</a></li>
+                <li><a href="#mgmt-sales">Sales involvement (EL & Vov)</a></li>
+              </ul>
+              <a href="#operations">OPERATIONS</a>
+              <ul class="is-hidden">
+                <li><a href="#frameworks">Frameworks</a></li>
+              </ul>
+            </li>
 
-      <li class="has-children">
-      <a href="#">SALES (EL & Sales Team)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Estimates</a></li>
-        <li><a href="#">Leads</a></li>
-        <li><a href="#">Process</a></li>
-        <li><a href="#">Target Market</a></li>
-        <li><a href="#">Bundled Services</a></li>
-        <li><a href="#">Commisions</a></li>
-      </ul>
-      <a href="#">PROCESS: THE ICALIER WAY (EB & EL)</a>
-      <ul class="is-hidden">
-        <li><a href="#">MVP</a></li>
-        <li><a href="#">Existing Projects</a></li>
-        <li><a href="#">Consultancy & Strategy</a></li>
-      </ul>
-      </li>
+            <li class="has-children">
+              <a href="#sales">SALES (EL & Sales Team)</a>
+              <ul class="is-hidden">
+                <li><a href="#estimates">Estimates</a></li>
+                <li><a href="#leads">Leads</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#target-market">Target Market</a></li>
+                <li><a href="#bundles">Bundled Services</a></li>
+                <li><a href="#commissions">Commissions</a></li>
+              </ul>
+              <a href="#icalier-way">PROCESS: THE ICALIER WAY (EB & EL)</a>
+              <ul class="is-hidden">
+                <li><a href="#mvp">MVP</a></li>
+                <li><a href="#existing-projects">Existing Projects</a></li>
+                <li><a href="#consultancy">Consultancy & Strategy</a></li>
+              </ul>
+            </li>
 
-      <li class="has-children">
-      <a href="#">DESIGN (NI & NA)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Setup</a></li>
-        <li><a href="#">Digital Branding</a></li>  
-        <li><a href="#">Interface & User Experience</a></li>  
-        <li><a href="#">Prototyping</a></li>
-        <li><a href="#">User Research</a></li>
-        <li><a href="#">Interaction with development</a></li>
-        <li><a href="#">Design tools</a></li>
-      </ul>
-      <a href="#">DEVELOPMENT (EB & AK)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Setup</a></li>
-        <li><a href="#">Guides</a></li>
-        <li><a href="#">Web applications</a></li>
-        <li><a href="#">Mobile applications</a></li>
-        <li><a href="#">Best Practices</a></li>
-      </ul>
-      <a href="#">PRODUCTION (AK & Vov)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Maintenance</a></li>
-        <li><a href="#">Metrics</a></li>
-        <li><a href="#">Continous Delivery</a></li>
-        <li><a href="#">Deployment</a></li>
-        <li><a href="#">DevOps</a></li>
-      </ul>
-      </li>
+            <li class="has-children">
+              <a href="#design">DESIGN (NI & NA)</a>
+              <ul class="is-hidden">
+                <li><a href="#setup">Setup</a></li>
+                <li><a href="#branding">Digital Branding</a></li>
+                <li><a href="#uiux">Interface & User Experience</a></li>
+                <li><a href="#prototyping">Prototyping</a></li>
+                <li><a href="#user-research">User Research</a></li>
+                <li><a href="#interaction">Interaction with development</a></li>
+                <li><a href="#design-tools">Design tools</a></li>
+              </ul>
+              <a href="#development">DEVELOPMENT (EB & AK)</a>
+              <ul class="is-hidden">
+                <li><a href="#dev-setup">Setup</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#web-apps">Web applications</a></li>
+                <li><a href="#mobile-apps">Mobile applications</a></li>
+                <li><a href="#best-practices">Best Practices</a></li>
+              </ul>
+              <a href="#production">PRODUCTION (AK & Vov)</a>
+              <ul class="is-hidden">
+                <li><a href="#maintenance">Maintenance</a></li>
+                <li><a href="#metrics">Metrics</a></li>
+                <li><a href="#delivery">Continuous Delivery</a></li>
+                <li><a href="#deployment">Deployment</a></li>
+                <li><a href="#devops">DevOps</a></li>
+              </ul>
+            </li>
 
-      <li class="has-children">
-      <a href="#">CULTURE (EL)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Mantra</a></li>
-        <li><a href="#">Core Values</a></li>
-        <li><a href="#">Rituals</a></li>
-        <li><a href="#">Creative time 20%</a></li>
-        <li><a href="#">Recognition</a></li>
-        <li><a href="#">Internships</a></li>
-        <li><a href="#">Workspace</a></li>
-      </ul>
-      <a href="#">HIRING (EL & AK)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Continuous Recruitment</a></li>
-        <li><a href="#">Procedure</a></li>
-        <li><a href="#">Interviews</a></li>
-        <li><a href="#">Career Path</a></li>
-        <li><a href="#">Salary Formula</a></li>
-      </ul>
-      <a href="#">COMMUNICATION (El & MD)</a>
-      <ul class="is-hidden">
-        <li><a href="#">Social Networks</a></li>
-        <li><a href="#">Team Communication</a></li>
-        <li><a href="#">Meetups</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">Network</a></li>
-      </ul>
-      </li>
-    </ul>
-    </li>
-  </ul> <!-- primary-nav -->
-</nav> <!-- il-nav -->
-<%= javascript_include_tag  "all" %>
-</body>
+            <li class="has-children">
+              <a href="#culture">CULTURE (EL)</a>
+              <ul class="is-hidden">
+                <li><a href="#mantra">Mantra</a></li>
+                <li><a href="#core-values">Core Values</a></li>
+                <li><a href="#rituals">Rituals</a></li>
+                <li><a href="#creative">Creative time 20%</a></li>
+                <li><a href="#recognition">Recognition</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#workspace">Workspace</a></li>
+              </ul>
+              <a href="#hiring">HIRING (EL & AK)</a>
+              <ul class="is-hidden">
+                <li><a href="#recruitment">Continuous Recruitment</a></li>
+                <li><a href="#procedure">Procedure</a></li>
+                <li><a href="#interviews">Interviews</a></li>
+                <li><a href="#career-path">Career Path</a></li>
+                <li><a href="#salary">Salary Formula</a></li>
+              </ul>
+              <a href="#communication">COMMUNICATION (El & MD)</a>
+              <ul class="is-hidden">
+                <li><a href="#social">Social Networks</a></li>
+                <li><a href="#team">Team Communication</a></li>
+                <li><a href="#meetups">Meetups</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#network">Network</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul> <!-- primary-nav -->
+    </nav> <!-- il-nav -->
+  <%= javascript_include_tag  "all" %>
+  </body>
 </html>
