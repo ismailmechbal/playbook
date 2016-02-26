@@ -7,8 +7,11 @@ Moreover, we need to check out the code to see how hard it will be to continue
 development.
 
 Some basic things that we like to check:
-1. How long the project has been in development.
-2. Reasons the client wanted to switch to a new team mid-project.
-3. Code "health" (try to gauge technical debt via proxies like test coverage and
-  [Rubocop](https://github.com/bbatsov/rubocop) for Ruby projects).
-4. Client timeline and goals.
+
+* How long the project has been in development.
+* Reasons the client wanted to switch to a new team mid-project.
+* Code "health" (try to gauge technical debt via proxies like test coverage,
+  code style/complexity, and security. For Ruby on Rails projects, are favorite
+  tools are [SimpleCov](https://github.com/colszowka/simplecov), [Rubocop](https://github.com/bbatsov/rubocop), and
+  [Brakeman](https://github.com/presidentbeef/brakeman)).
+* Client timeline and goals.
