@@ -4,10 +4,10 @@ ensure that we produce a [Minimum Viable Product](https://en.wikipedia.org/wiki/
 that meets client expectations in a timely fashion.
 
 ### Step 0 - Kickoff meeting
-Goal:
-
+Goal: Get started on the right foot!
+<br>
 Time: 2 hours
-
+<br>
 Activities:
 
 * Meet the whole team (including developers, designers, product managers).
@@ -18,7 +18,7 @@ Activities:
 <br>
 ### Step 1 - Understanding
 Goal: Have a clear starting point for the whole team. Clarify the problem,
-customer, business, users, and value proposition.<br>
+better understand the business and potential users.<br>
 Time: 1 - 3 days<br>
 Activities:
 
@@ -28,7 +28,7 @@ Activities:
 * Define the Business Opportunity.
 * Define the Problem.
 * Define the Value Proposition (why will people pay you?).
-* Define context­specific terms (this will act as a dictionary).
+* Define context­-specific terms (this will act as a dictionary).
 * Define the Customer with a Persona Profile.
 * Discuss short term and long term business goals (What’s the driving vision?).
 * Fill out the Business Model Canvas (this should be continually revisited).
@@ -40,8 +40,8 @@ Activities:
 <br>
 ### Step 2 - Definition
 Goal: Define the potential solution to be built in order to attack the problem
-or opportunity. Explore as many ways of solving the problems as possible,
-regardless of how realistic, feasible, or viable they may or may not be. This
+or opportunity. Come up with lots of ways to solve the problem. Brainstorm with
+and discuss solutions that might seem "wild" or "out there". This
 module helps to build a shared understanding across stakeholders and the tech
 team. The team should be prepared to constantly ask, “How might we...”. in a
 collaborative design format and should be prepared to generate, develop, and
@@ -59,7 +59,7 @@ Activities:
   c. KPI Prioritization (Outcomes) with *candy*
   d. Feature Brainstorming
   e. Define MVP (features & acceptance cases)
-6. Design Studio ­­ take parts of the problem or the most important user story
+6. Design Studio ­­take parts of the problem or the most important user story
   a. Individual idea generation (diverge ­­ white paper in 6 boxes) [10 minutes]
   b. Presentation and critique [3 minutes per person].­ 5 whys reference
   c. Iterate and refine (emerge) [5­10 minutes]
@@ -115,7 +115,7 @@ Activities:
   - Recruit selectively: Key number is 5
   - 1 user that doesn't fit the profile
   - Create Screener: Survey with non-specific or guided questions
-  - Define distribution channels.
+  - Define distribution channels
 * Session with users
 * Review and Impressions Session
   - What needs to change?
@@ -130,10 +130,15 @@ Time: Project-dependent<br>
 
 Activities:
 
+* Develop features
+* Check-in daily or weekly with the client to SHOW progress
+
 <br>
 ### Step 6 - Measure, Learn, & Groom
-Goal:
-<br>
-Time:<br>
+Goal: Set up appropriate monitoring that will enable the client to visualize
+user statistics and areas that need improvement.
 
-Activities:
+Time: Project-dependent
+
+Activities: Depending on the project, set up relevant tools ([Google Analytics](https://www.google.com.mx/analytics/),
+[New Relic](http://newrelic.com/)), and ????
