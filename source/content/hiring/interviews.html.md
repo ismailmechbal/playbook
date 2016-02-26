@@ -1,4 +1,4 @@
-Interviews at Icalia usually involve at three separate interviews.
+Interviews at Icalia usually involve at least three separate interviews.
 
 *
 *
