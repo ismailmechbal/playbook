@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/repos/571643a339e55804b500033d/badges/eb899385bebde004c834/gpa.svg)](https://codeclimate.com/repos/571643a339e55804b500033d/feed)
+[![Issue Count](https://codeclimate.com/repos/571643a339e55804b500033d/badges/eb899385bebde004c834/issue_count.svg)](https://codeclimate.com/repos/571643a339e55804b500033d/feed)
+
 ### Getting Started
 1. Clone the project.
 2. Make sure you have [Middleman](https://middlemanapp.com/basics/install/) installed.
