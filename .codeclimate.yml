@@ -1,4 +1,6 @@
 engines:
+  rubocop:
+    enabled: true
   eslint:
     enabled: true
   csslint:
@@ -8,11 +10,13 @@ engines:
     config:
       languages:
       - javascript
-      - coffeescript  
+      - coffeescript
+      - ruby  
 ratings:
   paths:
-  - src/**
-  - "**.js"
-  - "**.coffee"  
+  - "source/playbook.js"
+  - "source/navigation.js"
+  - "source/layouts/layout.erb"
+  - "source/stylesheets/playbook.css"  
 exclude_paths:
 - "source/**/*"  
