@@ -18,5 +18,3 @@ ratings:
   - "source/navigation.js"
   - "source/layouts/layout.erb"
   - "source/stylesheets/playbook.css"  
-exclude_paths:
-- "source/**/*"  
