@@ -15,3 +15,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 #Markdown
 gem "redcarpet"
+
+gem "rack-contrib"
+gem "puma"
