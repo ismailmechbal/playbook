@@ -1,0 +1,18 @@
+version: "2"
+
+volumes:
+  gems:
+    driver: local
+services:
+  playbook:
+    image: ruby:2.3.0
+    entrypoint: /usr/src/playbook/development-entrypoint.sh 
+    command: middleman server -b 0.0.0.0
+    ports:
+      - 4567:4567
+    volumes:
+      - .:/usr/src/playbook
+      - gems:/usr/local/bundle
+    working_dir: /usr/src/playbook
+    tty: true
+    stdin_open: true
