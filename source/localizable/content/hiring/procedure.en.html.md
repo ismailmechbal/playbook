@@ -5,7 +5,7 @@ Usually, before looking for a particular role, we
 * make a list of skill attributes as well as desired personal/cultural
 attributes - accountability,
 * share the position on our website, social media, job boards in Universities and Word of Mouth,
-* screen all resumes/portfolios for technical & cultural fit.
+* screen all resumes / github profiles for technical & cultural fit.
 
 A typical job description defined in our organization is the [Software Engineer](https://docs.google.com/document/d/1p9zgY3p4P7yOTna-kyyJcq2eU1b0b-mbD3TvylJa19M/edit). Once a company is growing, is hard to clearly establish all skill attributes and responsabilities for every role, that's why we take as a reference for inspiration the [Job Description Compendium](https://drive.google.com/file/d/0B0xBLypwwoZAc2NuM2pxbTBTVzA/view?usp=sharing).
 

@@ -11,4 +11,4 @@ There are a couple of reasons Icalia is hiring every time:
 * If a project is about to start, we focus on combine existing members with new ones to make a living know-how transfer by executing the products.
 * There are few people who will fit into our culture, so into the process. We need to verify every step to be sure this is going to be a great fit.
 
-On the past we have faced different situations that have ended on firing. This is an activity we don't promote and we are not proud of it. Usually this happens due to an opportunity within Icalia's processess. There has been interviews where we hadn't have a process, we didn't approached the right way, and that's why nowadays we have a very strict  procedure.
+On the past we have faced different cases that have ended on firing. This is an activity we don't promote and we are not proud of it. Usually this happens due to an opportunity within Icalia's processess. There has been interviews where we hadn't have a process, we didn't approached the right way, and that's why nowadays we have a very strict  procedure.
