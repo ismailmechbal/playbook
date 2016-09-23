@@ -6,17 +6,19 @@ Every single member at Icalia Labs has 20% of their time free of usage to get in
 
 Here is a list of things you could try:
 
-- Help as a mentor or coach in different events, such as: Startup Weekend Monterrey, Lean Startup Machine, Hackathons, etc.
+- Help as a mentor or coach in different events, such as: Startup Weekend, Lean Startup Machine, Hackathons, etc.
 - Plan a meetup or a new group to talk about technical, creative or product development things.
 - Build something new with the help of others in the team.
 - Contribute to open source or design showrooms.
 - Contribute with content to show the team’s work: Blog posts, a forum, Quora.
-- Document processes, tasks or your knowledge in the IcaliaLabs Wiki.
+- Document processes, tasks or your knowledge in the Icalia Labs Wiki.
 - Plan a tertulia, a design or a tech talk.
 - Learn something new, such as a tool, framework, language or technique.
 
-Talk with the team, pay attention to coming events, dynamics or anything related to the technical field in the city, or just talk with other Icaliers to build together something fresh.
+The main rule is to spend this amount of effort in personal development and in something the company is going to be rewarded as well.
 
 We have explored flexible and different approaches for the weekly approach such as using 20% of time during a month or a year with Internal Hackathons. In the end, Creative Time is a Hacker exercise that needs to encourage ourselves to move outside the typical routine and be at the same rhythm as technology moves. You can find some explanation about [Internal Hackathons and the Hacker Culture we embrace](https://medium.com/icalia-labs/icalia-lab-s-summer-hackathon-e25ee56ecdf4#.xjq47pxau) in our blog.
+
+Talk with the team, pay attention to coming events, dynamics or anything related to the technical field in the city, or just talk with other Icaliers to build together something fresh.
 
 <img src="somepeople.jpg" />

@@ -1,16 +1,9 @@
-Here at Icalia, we believe that culture is something that defines a team. It is
-not necessarily bad or good, but it is what defines us. It is a set of values
-and a pattern of basic assumptions and beliefs, learned behaviors, and norms
-that define us.
+Aquí en Icalia Labs, creemos que la cultura es algo que define enteramente a un equipo. No es necesariamente algo bueno o algo malo, pero es lo que nos define. Es un set de valores y un patrón de supuestos y creencias básicas, comportamientos aprendidos, y normas que nos definen.
 
-Here at Icalia our Vision is "Being in 10% of the world's technology by 2025."
+Cultura es algo que define a todo equipo, empezando por la visión y la misión.
 
-Our Mission is "Provide the best service and team to develop and design usable, useful and
-functional technology products for anyone in the world."
+Nuestra visión es "Estar en 10% de la tecnología mundial en 2025", lo cual significa ser parte de al menos una interfaz, una línea de código, un consejo dentro de la tecnología que usará el 10% de la población viviendo en 2025, de la tecnología que guiará el destino de las siguientes generaciones.
 
-Culture is something that defines a team, starting with the vision and mission.
-It is not either bad or good, is what defines us, is a set of values manifesting
-through behaviour and ritual, it is a pattern of basic assumptions and beliefs,
-learned behaviors, shared values and norms that define ourselves.
+Nuestra misión es "Ser una referencia posicionando la industria de software en México, agregando valor auténtico a nuestros clientes ayúdandolos a evolucionar con tecnología"
 
-** The role of the Happiness Manager **
+La cultura siempre ha sido una parte esencial de nuestra compañía, la [columna vertebral](https://medium.com/icalia-labs/cultura-la-columna-vertebral-de-toda-empresa-c8575ef60835#.exovi1prt). Construir una empresa de software sin una cultura clara es como dedicarse a [buscar analogía] sólo por el dinero. En el segundo año nos dimos a la tarea de dar más atención a la cultura - de hecho fue una necesidad resolver todos los detalles que había que atender, es por ello que se estableció el rol del [Happiness Manager](https://docs.google.com/document/d/1WtRcOVTbzrTq1NSzewYyQh-T9y7OjsEfXGxxSaD9AZU/edit?usp=sharing), un rol dedicado a apoyar situaciones humanas que surgieran por la naturaleza de contruir software y la misma forma en la que funcionan las organizaciones. Muchos de los problemas construyendo software surgen por las personas involucradas.

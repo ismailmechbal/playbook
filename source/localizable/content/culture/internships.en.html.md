@@ -1,8 +1,7 @@
 We welcome interns as part of our commitment to help grow the local tech
 community.
 
-Our summer interns, both developers & designers, are assigned a mentor for the
-duration of their initiation on the internship. Throughout the internship they are
+Our Interns, both developers & designers, live the Internship experience while they have assigned a mentor for the duration of their initiation on this process. Throughout the internship they are
 given guidance as they work on a project.
 
 Many interns have transitioned to become long-term interns, or apprentices,

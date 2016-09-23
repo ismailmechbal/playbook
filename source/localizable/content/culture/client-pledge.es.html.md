@@ -1,2 +1,2 @@
-* Always be in touch with the development team.
-* We are human; we work from 9am to 6pm (we also eat).
+* Siempre estate en contacto con el equipo de producto
+* Somos humanos; trabajamos de 9am a 6pm (también comemos)

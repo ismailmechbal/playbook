@@ -1,40 +1,9 @@
-We welcome interns as part of our commitment to help grow the local tech
-community.
+Buscamos dar la entrada a más Interns como parte de nuestro compromiso de apoyar a la comunidad e industria en el desarrollo de talento en tecnología. Existen muy pocas personas involucradas en la industria contra la  necesidad de los mismos por la cantidad de trabajo que existe.  
 
-Our summer interns, both developers & designers, are assigned a mentor for the
-duration of their 8 - 12 week internship. Throughout the internship they are
-given guidance as they work on a project.
+Todo Intern entra formalmente en un _Internship_, tanto desarrolladores como diseñadores, se les asigna un mentor para su iniciación como parte del equipo. A lo largo de esta experiencia se les da seguimiento intenso para que puedan desarrollarse de la mejor manera y permearse de las prácticas y herramientas que usamos en nuestra industria.
 
-Many interns have transitioned to become longer-term interns, or apprentices,
-and have successfully taken on client work and become fully integrated with the
-team while still in school.
+Muchos Interns han transicionado de algo moméntaneo a una relación mucho más a largo plazo, o como los aprendices que han crecido literalmente desde 0, y satisfactoriamente han tomado proyectos de clientes al grado de convertirse en parte fundamental del equipo de Icalia aún y cuando algunos siguen estudiando.
 
-Interns often don't have much real-world experience, so we work with them
-starting with the very basics. We look for curiosity, enthusiasm, and
-some related training (usually graphic design, computer science, or engineering
-majors). The recruitment section has more details about the interview process.
-=======
-Summer Internship - Computer Science
+Típicamente Interns no tienen tanta experiencia en el mundo real, es por ello que empezamos trabajando con ellos los elementos más básicos para su desarrollo en la industria. Buscamos curiosidad, entusiasmo y algo de entrenamiento previo (usualmente estudiantes de Diseño Gráfico, Sistemas Computacionales o Ingeniería)
 
-Wondering what you can accomplish in 12 weeks? We'd say a lot. Apply for an internship at Icalia Labs and be a part of helping us build something big.
-
-What?
-Develop a product from scratch, receive mentorship from our developers and designers, gain full access to our learning platforms, rewards and creative time.
-
-When?
-12 weeks of summer internship. Starting on May 25, ending on August 14. If you build an amazing product, your internship can be extended.
-
-Who?
-Computer Science students with knowledge in:
-Web Development
-Programming languages (Ruby On Rails, Java, C, C++, Python…)
-HTML/CSS
-
-Ready to apply? Great! You’ll only need a few things:
-Your current resume in PDF form.
-A cover letter explaining why you’d love to be an intern at Icalia Labs.
-Your personal website and Github account
-
-Send all the information to weare@icalialabs. Be sure to apply before May 1st.
-What to expect?
-Your resume and cover letter will be reviewed by our Happiness Manager. If you’re a good fit for our internship, she will reach out to you. If you move forward in the hiring process, you’ll participate in a series of interviews to assess your skills - some may be over the phone or on Google+ Hangouts, and others in person. You’ll also need to demonstrate your technical abilities. We will work with you to answer any questions you have and help with scheduling.
+Más información acerca la experiencia de ser un Intern, revisa [este blog post](https://medium.com/our-team/being-an-intern-d762ba7cab10#.qcgl4dvd0) o [este otro](https://medium.com/icalia-labs/in-building-moato-and-learning-rails-57653f6e2c68#.6nbxmjmdk).

@@ -1,4 +1,4 @@
-Our core values are the best representation of the culture we promote. We have selected four that represent and conglomerate a sub-set of attitudes we promote implicitly in other activities as well.
+Our core values are the best representation of the culture we promote. We have selected four that represent and conglomerate a sub-set of attitudes we implicitly promote in other activities as well.
 
 1. Passion: Motivation comes from true **passion**
   * Curiosity, Proactivity, Courage, (Persistence, Vitality, Bravery),

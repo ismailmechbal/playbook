@@ -11,4 +11,4 @@ The service need from us the next principles:
 improve and execute them.
 * Always ask why.
 
-The internal team pledge can be found [here](https://drive.google.com/file/d/0B0xBLypwwoZAX3E2UXZHZW9YdzQ2dVptSjQ0SmpWRGN0Ym1F/view?usp=sharing), and help to establish order and rules to any exception or anomaly while we coexist.
+The internal team pledge can be found [here](https://drive.google.com/file/d/0B0xBLypwwoZAX3E2UXZHZW9YdzQ2dVptSjQ0SmpWRGN0Ym1F/view?usp=sharing), and helps to establish order and rules to any exception or anomaly while we coexist.

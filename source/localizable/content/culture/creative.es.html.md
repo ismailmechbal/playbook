@@ -1,20 +1,25 @@
-In Icalia Labs we care about team capabilities and imagination to change the world. 
+En Icalia Labs creemos que la creatividad y la imaginación son fundamentales para hacer que el mundo avance y mejore.
 
-As part of our existence and the daily activities, it is important to keep imaging and creating internal products in order to learn about product development. Additionally, we care about the community. We need to show our work as part of our marketing, recruitment, and sales strategy. If we presume what we do, we generate more engagement outside of our circle. Although, we like to help others with all things we know as we have learned from others on the past. 
+Como parte de nuestras actividades diarias, necesitamos estar explorando herramientas nuevas para seguir aprendiendo sobre nuestra industria y sobre la construcción de productos digitales. Adicionalmente, nos importa apoyar en la construcción de comunidad. Necesitamos mostrar nuestro trabajo como parte de de ventas, reclutamiento y comunicación externa. Si presumimos lo que hacemos, generamos más conexión con nuestro cículo externo. Nos gusta apoyar de manera abierta así como en el pasado se nos brindó aprendizaje de parte de otros.
 
-Every single member at Icalia Labs has 20% of their time free of usage to get involved in extraordinary things. We have learned that Fridays are the best days to spend this amount of time. For team members who aren’t spending time for Icalia Labs on Friday, you can organize yourself and see an available space during the week to achieve the 20% goal. It’s important to consider a 20% of creative time, but also an 80% of effective time dedicated to client’s projects. We need to complete our 80% work based on our weekly goals and team strategy to still have access to a 20% of creative time. If we haven’t finished weekly work, we should dedicate the rest of the time to finish that pending activities; we care about our clients, that’s firstly why we can operate and spend creative time.
+Todo miembro dentro de Icalia Labs tiene acceso a 20% de tiempo libre para ser usado en actividades que no están relacionadas con clientes actuales. Tiempo atrás aprendimos que los Viernes como parte de la semana son el mejor día para invertir este tiempo. Para los miembros que no dedicarán ese tiempo el viernes, es posible organizarse durante la semana para alcanzar la meta de invertir 20% del tiempo como una meta global de la compañía. Es importante balancear entre un 20% para invertir en actividades extraordinarias, y 80% enfocado en trabajo efectivo para el servicio con nuestros clientes. Nos importa atender a nuestros clientes, existimos primeramente por la alizana que hacemos con ellos y [es algo que valoramos](https://medium.com/icalia-labs/a-nuestros-clientes-gratitud-ante-todo-a23da88347e4#.exytht2rb).
 
-Here is a list of things you could try:
+Aquí hay una lista de algunas cosas que trabajamos con este esquema:
 
-- Help as a mentor or coach in different events, such as: Startup Weekend Monterrey, Lean Startup Machine, Apporta, Hackathons, etc. 
-- Plan a meetup or a new group to talk about technical, creative or product development things. 
-- Build something new with the help of others in the team.
-- Contribute to open source or design showrooms.
-- Contribute with content to show the team’s work: Blog posts, a forum, Quora. 
-- Document processes, tasks or your knowledge in the IcaliaLabs Wiki. 
-- Plan a tertulia, a design or a tech talk. 
-- Learn something new, such as a tool, framework, language or technique. 
+- Ayudar como mentor o coach en diferentes eventos como: Startup Weekend, Lean Startup Machine, Hackathons, etc.
+- Planear un meetup o algún para conversar sobre tema técnicos, creativos o de desarrollo de productos.
+- Construir algo nuevo con la ayuda de otros del equipo.
+- Contribuir a proyectos de código abierto o en _showrooms_ de diseño.
+- Contribuir con contenido para mostrar el trabajo del equipo: Publicaciones en Blog, respuesta en Quora, casos de estudio.
+- Documentar procesos, tareas o conocimiento en la Wiki de Icalia Labs.
+- Planear una tertualia (charla casual de menos de 45 mins. con otros Icaliers), una charla de diseño o de tecnología.
+- Aprender algo nuevo: Una herramienta, _framework_, lenguage, técnica.
 
-Link de nuevo procedimiento => https://drive.google.com/file/d/0B0xBLypwwoZAX1UwN2dPeEthUk0/view?usp=sharing
+La regla principal en creative time es construir algo para nuestro beneficio personal y el de la compañía.
 
-Talk with the team, pay attention to coming events, dynamics or anything related to the technical field in the city, or just talk with other Icaliers to build together something fresh.
+Hemos explorado otras posibilidades igualmente flexibles contra la opción semanal, como usar el 20% durante un mes o todo el año con ejercicios como Hackathons Internos. Al final, Creative Time es una actividad de Hacking que necesita empujarnos a salir de nuestra típica rutina y operación para seguir al ritmo de cómo la tecnología se mueve. Puedes leer un poco más de estas exploración en [nuestro post sobre un hackathon interno y nuestra cultura hacker en el blog](https://medium.com/icalia-labs/icalia-lab-s-summer-hackathon-e25ee56ecdf4#.xjq47pxau).
+
+Habla con el equipo, presta atención de eventos próximos, dinámicas o lo que sea relacionado con la escena tecnológica en la ciudad o país, o sólo habla con otros Icaliers para construir algo nuevo y fresco.
+
+
+<img src="somepeople.jpg" />

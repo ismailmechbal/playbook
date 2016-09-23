@@ -2,9 +2,9 @@ Rituals are actions and behaviors that represent each of our core values.
 
 <h3>Passion</h3>
 
-* Learn & build something new.
-* Schedule your activities for personal organization.
+* Build something new.
 * Add always value in all your activities.
+* Never stop learning, hacking and designing
 * We provide:
   - Team Meals
   - Team Retreats (twice a year)
@@ -13,6 +13,7 @@ Rituals are actions and behaviors that represent each of our core values.
 <h3>Integrity</h3>
 
 * Be respectful with clients and other Icaliers.
+* Schedule your activities for personal organization.
 * Care about your work.
 * Be honest with your team and with our partners.
 * Commit to your activities and be responsible.
@@ -25,10 +26,10 @@ Rituals are actions and behaviors that represent each of our core values.
 
 <h3>Communication</h3>
 
-* Make a daily standup part of the routine in your projects.
+* Make a daily standup part of the habits in your projects.
 * Listen carefully in the Icalia Monthly standups and other meetings.
 * Keep in touch with all stakeholders in-person or via Basecamp, Google Hangouts,
 Slack, or email.
 * Document everything during the entire development process (READMEs, code
-  comments, Github issues, git commit messages), and write up a study case when
-  the project comes to a close.
+  comments, Github issues, git commit messages)
+* Write down a case study to show to others your work
