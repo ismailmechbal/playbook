@@ -40,7 +40,7 @@ activate :i18n, :langs => [:en, :es]
 
 # Reload the browser automatically whenever files change
  configure :development do
-   activate :livereload
+   activate :livereload, js_host: "0.0.0.0", host: "0.0.0.0"
  end
 
 # Methods defined in the helpers block are available in templates
