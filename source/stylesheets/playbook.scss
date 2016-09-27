@@ -411,6 +411,15 @@ strong {
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s;
   }
+
+  .il-primary-nav.moves-out > .has-children > a::before {
+    @include transform(translate(5px, 0px) rotate(-45deg));
+  }
+
+  .il-primary-nav.moves-out > .has-children > a::after {
+    @include transform(rotate(45deg));
+  }
+
   .il-primary-nav .il-secondary-nav:after, .il-primary-nav .il-nav-gallery:after, .il-primary-nav .il-nav-icons:after {
     content: "";
     display: table;
