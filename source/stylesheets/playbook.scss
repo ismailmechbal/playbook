@@ -1,3 +1,7 @@
+@import "compass";
+@import "variables";
+@import "typography";
+
 /* --------------------------------
 Primary style
 -------------------------------- */
@@ -13,13 +17,13 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: sans-serif;
   color: #4B4B4B;
   background: #FFF;
-  font-family: "Lato", "Helvetica Neue";
+  font-family: $base-font-family;
   line-height: 1;
   height: 100%;
-  padding-top: 190px;
+  padding-top: 180px;
+  overflow-x: hidden;
 }
 
 a {
@@ -35,6 +39,7 @@ img {
 /* --------------------------------
 Main components
 -------------------------------- */
+
 .il-main-content, .il-main-header {
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -71,23 +76,26 @@ Main components
 .il-main-content {
   min-height: 100vh;
   z-index: 2;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
 .il-main-header {
-  height: 60px;
+  height: 80px;
+  line-height: 80px;
   background: #ffffff;
   z-index: 3;
-  border-bottom: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F4F4F4;
+  letter-spacing: 5px;
 }
+
 .nav-is-fixed .il-main-header {
   /* add .nav-is-fixed class to body if you want a fixed navigation on > 1170px */
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 5%;
+  width: 90%;
 }
 @media only screen and (min-width: 1170px) {
   .il-main-header:after {
@@ -98,20 +106,13 @@ Main components
 }
 
 .il-logo {
-  position: absolute;
-  top: 12px;
-  left: 5%;
-  letter-spacing: 1.5px;
-  font-weight: bold;
-  font-size: 18px;
-}
-.il-logo img {
-  display: block;
+  color: #979797;
+  font-size: 13px;
 }
 
 .il-nav .table-of-contents {
-  font-size: 14px;
-  letter-spacing: 1.5px;
+  font-size: 13px;
+  letter-spacing: 5px;
 }
 @media only screen and (max-width: 1169px) {
   .nav-on-left .il-logo {
@@ -312,8 +313,6 @@ Main components
 
 @media only screen and (min-width: 1170px) {
   .il-primary-nav {
-    position: static;
-    padding: 0 100px 0 0;
     height: auto;
     width: auto;
     float: right;
@@ -370,7 +369,7 @@ Main components
     height: 60px;
     line-height: 60px;
     padding: 0 10px;
-    color: #EC2D2D;
+    color: #000;
     overflow: visible;
     border-bottom: none;
     -webkit-transition: color 0.3s, box-shadow 0.3s;
@@ -378,7 +377,7 @@ Main components
     transition: color 0.3s, box-shadow 0.3s;
   }
   .il-primary-nav > li > a:hover {
-    color: #EC2D2D;
+    color: #000;
   }
   .il-primary-nav > li > a.selected {
     color: #EC2D2D;
@@ -471,7 +470,7 @@ Main components
   }
   .il-primary-nav .il-secondary-nav > li > a {
     /* secondary nav title */
-    color: #EC2D2D;
+    color: #000;
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: .6em;
@@ -485,7 +484,7 @@ Main components
     font-size: 1.4rem;
   }
   .il-primary-nav .il-secondary-nav a:hover {
-    color: #EC2D2D;
+    color: #000;
   }
   .il-primary-nav .il-secondary-nav ul {
     /* Force Hardware Acceleration in WebKit */
@@ -649,7 +648,7 @@ Main components
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    background: #EC2D2D;
+    background: #000;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transition: width 0.3s, -webkit-transform 0.3s;
@@ -768,37 +767,20 @@ support for no js
 
 .logo {
   position: fixed;
-  left: 48%;
-  top: 40px;
+  left: 50%;
+  margin-left: -10px;
+  top: 20px;
   z-index: 101;
-  transition: all 0.2s ease-in-out;
-}
-
-.logo.small {
-  top: 15px;
-}
-
-.logo.small svg {
-  width: 30px;
-  height: 30px;
 }
 
 .logo svg {
-  fill: #e60038;
+  fill: #000;
   width: 40px;
   height: 40px;
-  transition: all 0.2s ease-in-out;
 }
 
 .il-main-content img {
   margin-bottom: 40px;
-}
-
-.il-main-content h1 {
-  font-size: 34px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
 }
 
 .il-main-content h3 {
