@@ -1,0 +1,41 @@
+footer {
+  background: #000;
+  display: block;
+  height: 290px;
+  position: relative;
+  width: 100%;
+
+  .footer-logo {
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -70px;
+
+    a {
+      color: inherit;
+      display: block;
+      font-family: $secondary-font-family;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      letter-spacing: 1px;
+    }
+
+    .made-in {
+      color: #5F5F5F;
+      font-family: $secondary-font-family;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 3px;
+    }
+
+    svg {
+      fill: #FFF;
+      height: 40px;
+      width: 40px;
+      margin-bottom: 10px;
+    }
+  }
+}

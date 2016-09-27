@@ -10,6 +10,7 @@ services:
     command: middleman server -b 0.0.0.0
     ports:
       - 4567:4567
+      - 35729:35729
     volumes:
       - .:/usr/src/playbook
       - gems:/usr/local/bundle
