@@ -398,9 +398,9 @@ strong {
     /* dropdown menu style */
     position: absolute;
     top: 60px;
-    width: 100vw;
+    width: 90vw;
     background: rgba(255,255,255,0);
-    padding: 34px 64px 130px;
+    padding: 34px 0 130px;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -479,17 +479,21 @@ strong {
   .il-primary-nav .il-secondary-nav > li > a {
     /* secondary nav title */
     color: #000;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: .6em;
+    font-family: $secondary-font-family;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .il-primary-nav .il-secondary-nav a {
-    height: 25px;
-    line-height: 25px;
+    color: $navigation-base-color;
+    font-family: $navigation-font-family;
+    height: auto;
     padding: 0 18% 0 0;
-    color: #2e3233;
     border-bottom: none;
-    font-size: 1.4rem;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.5;
   }
   .il-primary-nav .il-secondary-nav a:hover {
     color: #000;
@@ -794,16 +798,6 @@ support for no js
 .il-main-content p {
   text-align: left;
   margin-bottom: 20px;
-}
-
-ul.is-hidden {
-  margin-left: 12px;
-}
-
-h1.article-title {
-  font-size: 20px;
-  margin-top: 40px;
-  text-align: center;
 }
 
 .section-title {
