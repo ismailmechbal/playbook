@@ -39,6 +39,10 @@ ul {
   }
 }
 
+article ul li ul {
+  margin-left: 15px;
+}
+
 /* --------------------------------
 Main components
 -------------------------------- */
@@ -291,30 +295,7 @@ strong {
   background-position: center center;
   background-size: 40px 40px;
 }
-.il-primary-nav .il-nav-icons .il-nav-item.item-1::before {
-  background-image: url("../img/line-icon-1.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-2::before {
-  background-image: url("../img/line-icon-2.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-3::before {
-  background-image: url("../img/line-icon-3.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-4::before {
-  background-image: url("../img/line-icon-4.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-5::before {
-  background-image: url("../img/line-icon-5.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-6::before {
-  background-image: url("../img/line-icon-6.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-7::before {
-  background-image: url("../img/line-icon-7.svg");
-}
-.il-primary-nav .il-nav-icons .il-nav-item.item-8::before {
-  background-image: url("../img/line-icon-8.svg");
-}
+
 @media only screen and (max-width: 1169px) {
   .il-primary-nav {
     /* by default .il-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
@@ -844,7 +825,6 @@ h3 {
 .il-main-content li ul li{
   list-style-type: square;
   width: 90%;
-  font-family: 'Crimson Text', serif;
 }
 
 .il-main-content li ol > li {
