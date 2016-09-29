@@ -31,6 +31,14 @@ a {
   text-decoration: none;
 }
 
+ul {
+  li {
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+  }
+}
+
 /* --------------------------------
 Main components
 -------------------------------- */
@@ -827,13 +835,6 @@ h3 {
   position: relative;
   height: 70px;
   margin-top: -70px;
-}
-
-.il-main-content li {
-  line-height: 26px;
-  font-size: 18px;
-  text-align: left;
-  margin: auto;
 }
 
 .il-main-content li ul li{
