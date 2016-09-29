@@ -35,13 +35,17 @@ ul {
   li {
     font-size: 15px;
     text-align: left;
-    line-height: 30px;
+    line-height: 1.5;
   }
 }
 
 /* --------------------------------
 Main components
 -------------------------------- */
+
+.il-primary-nav {
+  list-style: none;
+}
 
 .il-main-content, .il-main-header {
   /* Force Hardware Acceleration in WebKit */
@@ -170,7 +174,7 @@ strong {
 
 .il-primary-nav, .il-primary-nav ul {
   position: fixed;
-  top: 0;
+  top: 11px;
   right: 0;
   height: 100%;
   width: 260px;
