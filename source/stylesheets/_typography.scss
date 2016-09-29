@@ -15,6 +15,10 @@ h1 {
   text-shadow: 0px 0px rgba(#EDEDED, 0.1);
   text-transform: uppercase;
   vertical-align: bottom;
+
+  &.medium {
+    font-size: 200px;
+  }
 }
 
 @keyframes wave-animation{
